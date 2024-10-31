@@ -48,7 +48,7 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
-  padding-top: 0 450px 0 454px;
+  padding-top: 0;
 }
 
 .address {
@@ -151,11 +151,12 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
+  cursor: pointer;
 }
 
 .lots {
   position: relative;
-  margin: 179px 24px 146px;
+  margin: 179px 0 146px;
   flex-shrink: 0;
   font-family: Raleway, sans-serif;
   color: #fff;
@@ -164,7 +165,7 @@
 
 .lots__heading {
   color: #000;
-  margin: 0 891px 27px 40px;
+  margin: 0 0 27px 64px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -182,7 +183,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -1;
+  z-index: 0;
 }
 
 .card_type_film {
@@ -203,6 +204,7 @@
   margin: 27px 0px 30px;
   align-content: space-between;
   gap: 25px;
+  justify-content: center;
 }
 
 .card-link {
@@ -236,7 +238,6 @@
 
 .card__text {
   position: relative;
-  padding: auto 40px 48px;
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
@@ -247,7 +248,7 @@
 }
 
 .lots__look-more-link {
-  padding: 30px 102px 0px 40px;
+  padding: 30px 102px 0px 64px;
   color: #000;
   font-size: 20px;
   font-weight: 400;
@@ -280,7 +281,7 @@
   height: 240px;
   width: 240px;
   background-color: #000;
-  border-radius: 150px;
+  border-radius: 50%;
 }
 
 .about-logo_image {
